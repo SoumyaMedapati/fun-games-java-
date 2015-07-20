@@ -1,0 +1,136 @@
+
+div.profile{
+    cursor: pointer;
+}
+
+.profilecont .cover{
+    width:100%;
+    padding-bottom: 25%;
+    background: #FF5722;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.3);
+}
+
+.profilecont div img{
+    width:10%;
+        -webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.2);
+    margin-top: -7%;
+    margin-left:15%;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.actioncalls{
+    width:100%;
+    margin-left: 30%;
+    margin-top:-5%;
+    float:left;
+}
+
+.proname{
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.3);
+    width:10%;
+    border:1px solid white;
+    border-radius: 25px;
+    padding:1% 1% 1% 1%;
+    background: white;
+    color:#880E4F;
+    font-size: 1em;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.proname.long{
+    width:20%;
+}
+
+#update{
+    margin-left:25%;
+}
+
+#activity{
+    margin-left: 2%;
+}
+
+#message{
+    margin-left:20%;
+}
+
+#follow{
+    margin-left: 2%;
+}
+
+.profilecont{
+    width:100%;
+    margin-top: 5%;
+    background: #E91E63;
+}
+
+.procontainer{
+    width:100%;
+    margin-top:1%;
+    padding-bottom: 17%;
+    background: #E91E63;
+
+}
+
+.procontainer .wall{
+    width:100%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    background: #E91E63;
+    margin-left: 5%;
+}
+
+.procontainer .wall .walltabs{
+    width: 90%;
+    float:left;
+}
+
+.procontainer .wall .walltabs .proname{
+    color:#0095dd;
+    float:left;
+    cursor:pointer;
+    width:5%;
+    padding: 1.5% 2% 1.5% 2%;
+    z-index: 2000;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(1,0,0,0.1);
+}
+.proname.active{
+    border:1px solid #FF5722;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(1,0,0,0.1);
+}
+
+#trending{
+    margin-left: 40%;
+}
+
+.procontainer .wall .mainwall{
+    width:65%;
+    float: left;
+    background: white;
+    padding-bottom: 15%;
+        border-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    -webkit-box-shadow: 1px 5px 20px 1px rgba(1,0,0,0.2);
+}
+
+.trending{
+    width:25%;
+    float: left;
+    margin-left: 4%;
+    background: white;
+    padding-bottom: 15%;
+            border-radius: 10px;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    -webkit-box-shadow: 1px 5px 20px 1px rgba(1,0,0,0.2);
+}

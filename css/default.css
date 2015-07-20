@@ -1,0 +1,87 @@
+
+div.profile{
+    cursor: pointer;
+}
+
+.profilecont .cover{
+    width:100%;
+    padding-bottom: 25%;
+    background: #FF5722;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.3);
+}
+
+
+.procontainer{
+    width:100%;
+    margin-top:8%;
+    padding-bottom: 17%;
+}
+
+.procontainer .wall{
+    width:100%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.procontainer .wall .walltabs{
+    width: 90%;
+    float:left;
+}
+
+.procontainer .wall .walltabs .proname{
+    color:#3b5998;
+    float:left;
+    background: white;
+    cursor:pointer;
+    width:5%;
+    padding: 1.5% 2% 1.5% 2%;
+    z-index: 2000;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 20px 1px rgba(1,0,0,0.1);
+}
+.proname.active{
+    -webkit-box-shadow: none;
+    border:1px solid #42A5F5;
+}
+
+#trending{
+    margin-left: 57%;
+}
+
+.procontainer .wall .mainwall{
+    width:65%;
+    float: left;
+    background: white;
+    padding-bottom: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    -webkit-box-shadow: 1px 5px 20px 1px rgba(1,0,0,0.2);
+}
+
+.trending{
+    width:25%;
+    float: left;
+    margin-left: 2%;
+    background: white;
+    padding-bottom: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    -webkit-box-shadow: 1px 5px 20px 1px rgba(1,0,0,0.2);
+}
+
+.posts{
+    display: none;
+    margin-top: 1%;
+    width:85%;
+    border-radius: 15px;
+    margin-left: 3%;
+    border:1px solid cyan;
+}
